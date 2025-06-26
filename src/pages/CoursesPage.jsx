@@ -1,7 +1,6 @@
 // src/pages/CoursesPage.jsx
 import React from 'react';
 import { Link } from 'react-router-dom';
-import CollegeTourVideo from '../assets/images/college-tour.mp4'; // Your imported video
 const CoursesPage = () => {
   return (
     <div className="page-container" style={{overflow:"auto"}}>
@@ -13,7 +12,7 @@ const CoursesPage = () => {
       <h2>Discover Campus Life</h2>
       <div className="video-container">
         <video controls width="100%" height="auto" className="course-video">
-          <source src="/assets" type="video/mp4" />
+          <source src="/videos/college-tour.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
         <p className="video-caption">

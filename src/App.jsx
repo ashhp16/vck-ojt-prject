@@ -1,13 +1,13 @@
 // src/App.jsx
 import { Route,BrowserRouter as Router, Routes } from "react-router-dom";
 import HomePage from "./pages/HomePage";
-import Header from "./components/Headers/Header";
 import Footer from "./components/Footer/Footer";
 import ContactPage from "./pages/ContactPage";
 import "./styles/Pages.css"
 import AboutPage from "./pages/AboutPage";
 import CoursesPage from "./pages/CoursesPage";
-import AdmissionsPage from "./pages/AdmissionsPage";
+import Header from "./components/Header/Header";
+import AdmissionsPage from "./pages/AdmissionPage";
 
 
 function App() {
