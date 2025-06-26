@@ -8,6 +8,7 @@ import AboutPage from "./pages/AboutPage";
 import CoursesPage from "./pages/CoursesPage";
 import Header from "./components/Header/Header";
 import AdmissionsPage from "./pages/AdmissionPage";
+import ChatbotComponent from "./components/Chatbot/ChatbotComponent";
 
 
 function App() {
